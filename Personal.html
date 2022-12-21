@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portifolio website </title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://kit.fontawesome.com/s4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container ">
+            <nav class="fixed">
+                <h1><span>F</span>aizaL</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Doveloper</p>
+                <h1>Hi, I'm <span>FaizaL</span> khan <br> from Rajasthan</h1>
+            </div>
+           
+        </div>
+        <div class="Img">
+            <img src="IMG_20221220_194605.jpg" alt="">
+        </div>
+    </div>
+<!----------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_20221113_165630.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dignissimos velit obcaecati recusandae saepe sapiente repellendus esse accusamus, quasi blanditiis possimus alias, numquam perferendis. Perspiciatis ipsa eveniet odit! Iste,Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi laudantium velit itaque sit consequuntur quod neque, voluptates, obcaecati quam repellat eveniet praesentium atque saepe vel totam quae vero suscipit! Dignissimos? </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Doveloper</span><br>Designing Webpages</li>
+                            <li><span>Web Dovelopment</span><br>Web  Development</li>
+                            <li><span>Backend Doveloper</span><br>Building database</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Frontend Doveloper</span><br>Desiging Web pages</li>
+                            <li><span>Web Dovelopment</span><br>Web  Development</li>
+                            <li><span>Backend Doveloper</span><br>Building database</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Frontend Doveloper</span><br>Desiging Web pages</li>
+                            <li><span>Web Dovelopment</span><br>Web  Development</li>
+                            <li><span>Backend Doveloper</span><br>Building database</li>
+                        </ul>
+                    </div>
+                   </div>
+               </div>
+        </div>
+    </div>
+
+    <!-----------Services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web pages</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate temporibus numquam itaque quod quis dicta dolorum, nemo accusamus iure, perferendis accusantium debitis voluptatum architecto minima, labore autem sed ratione.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>build Database</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate temporibus numquam itaque quod quis dicta dolorum, nemo accusamus iure, perferendis accusantium debitis voluptatum architecto minima, labore autem sed ratione.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Web developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate temporibus numquam itaque quod quis dicta dolorum, nemo accusamus iure, perferendis accusantium debitis voluptatum architecto minima, labore autem sed ratione.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------Portfolio-------------->
+    
+
+
+<!------Contact--------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> contact@example.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="black-image.jpg" download class="btn btn-2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="text" name="email" placeholder="your email" required>
+                        <textarea name="Message"  rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @ Faizal. /made with <i class="fas fa-heart"></i> by Easy Tutorials.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
